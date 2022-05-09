@@ -1,0 +1,60 @@
+<settings>
+    <servers>
+        <server>
+            <!-- this id should match the id of the repo server in pom.xml -->
+            <id>fit2cloud</id>
+            <username>admin</username>
+            <password>Xiaoxiaoyuan0304</password>
+        </server>
+        <server>
+            <!-- this id should match the id of the repo server in pom.xml -->
+            <id>releases</id>
+            <username>admin</username>
+            <password>Xiaoxiaoyuan0304</password>
+        </server>
+        <server>
+            <!-- this id should match the id of the repo server in pom.xml -->
+            <id>snapshots</id>
+            <username>admin</username>
+            <password>Xiaoxiaoyuan0304</password>
+        </server>
+        <server>
+            <!-- this id should match the id of the repo server in pom.xml -->
+            <id>fit2cloud-enterprise-snapshots</id>
+            <username>admin</username>
+            <password>Xiaoxiaoyuan0304</password>
+        </server>
+        <server>
+            <!-- this id should match the id of the repo server in pom.xml -->
+            <id>fit2cloud-enterprise-release</id>
+            <username>admin</username>
+            <password>Xiaoxiaoyuan0304</password>
+        </server>
+        <server>
+            <id>fit2cloud-example</id>
+            <username>admin</username>
+            <password>Xiaoxiaoyuan0304</password>
+        </server>
+        <server>
+            <!-- this id should match the id of the repo server in pom.xml -->
+            <id>fit2cloud-public</id>
+            <username>admin</username>
+            <password>Xiaoxiaoyuan0304</password>
+        </server>
+        <server>
+            <id>bestv-releases</id>
+            <username>admin</username>
+            <password>Fit2cloud</password>
+        </server>
+    </servers>
+
+    <mirrors>
+        <mirror>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <mirrorOf>*</mirrorOf>
+        </mirror>
+    </mirrors>
+
+</settings>
