@@ -3,7 +3,7 @@
         <server>
             <!-- this id should match the id of the repo server in pom.xml -->
             <id>fit2cloud123124</id>
-            <username>admin1421</username>
+            <username>admin</username>
             <password>Xiaoxiaoyuan030414124</password>
         </server>
         <server>
